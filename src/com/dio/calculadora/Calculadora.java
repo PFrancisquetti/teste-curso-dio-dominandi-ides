@@ -4,8 +4,10 @@ import java.util.Scanner;
 
 public class Calculadora {
 
+	private static Scanner scan;
+
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
+		scan = new Scanner(System.in);
 				
 	int a, b;
 		
